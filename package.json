@@ -12,12 +12,15 @@
     "@types/react-dom": "^17.0.0",
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "truffle": "^5.4.11",
+    "react-scripts": "^4.0.3",
+    "truffle": "^5.1.65",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1"
   }
 }
